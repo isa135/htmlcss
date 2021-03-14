@@ -25,6 +25,9 @@ a::before{
     height: 10px;
     margin-right: 10px;
 }
+div {
+    display: flex;
+}
 
 span {
     background-color: #11BFA5;
@@ -38,9 +41,11 @@ span {
     padding: 18px 20px;
     box-shadow: 5px 5px 0px #000;
     margin-right: 0px;
+    transition: transform 100ms linear;
 }
 
 #button:hover {
     background-color: #14dbbd;
     box-shadow: 5px 5px 5px #000;
+    transform: scale(1.08);
 }
