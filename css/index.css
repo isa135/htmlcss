@@ -49,3 +49,31 @@ span {
     box-shadow: 5px 5px 5px #000;
     transform: scale(1.08);
 }
+
+section {
+    display: flex;
+    padding: 10px 20px;
+    background-image: url('./../assets/img/paisagem_01.png');
+    height: 780px;
+}
+
+.teste {
+    
+}
+.testebt {
+    
+}
+
+h1, h2 { 
+    color:  #fff;
+    text-shadow: 4px 3px 5px #000;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 40px;
+}
+
+h2 { 
+    color:  #fff;
+    text-shadow: 4px 3px 5px #000;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 30px;
+}
