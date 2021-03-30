@@ -54,16 +54,33 @@
     <section class="session">
         <h2 class="main-title -second">Skills</h2>
 
-        <article class="skill-tec">
-            <img class="icon" src="img/ico_html5.png" alt="Ícone HTML5 em pixel art"/>
-            <div class="right">
-                <h3 class="title">HTML</h3>
+        <dl class="skill-tec"> <!-- Description List -->
+            <dd class="icon"><img src="img/ico_html5.png" alt="Ícone HTML5 em pixel art"/></dd> <!-- Define Description -->
+            <dt class="title">HTML</dt> <!-- Description Title -->
+
+        
+            <!-- para criar com Emmet Abreviation:
+                digite:
+                dd>progress.progress-bar[max=100 value=70]{70%}
+                ctrl + espaço
+            -->
+
+            
+            <dd>
                 <progress class="progress-bar" max="100" value="70">
                     70%
                 </progress>
+            </dd>
+            <!-- <dd class="bar"><progress max="100" value="70"> 70% </progress></dd> -->
+        </dl>
+        <!-- <div class="wrapper">
+            <div class="box">
+                <h1 class="title">Skills</h1>
             </div>
-            
-        </article>
+            <div class="navigation">    
+                i
+            </div>
+        </div> -->
     </section>
 
     <section class="projetos">
