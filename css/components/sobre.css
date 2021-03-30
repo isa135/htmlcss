@@ -1,0 +1,10 @@
+.sobre {
+    box-sizing: border-box;
+    background-color: #C7109F;
+    /* background-size: 100%; */
+    width: 100%;
+    height: 720px;
+    border-bottom: 10px solid #000;   
+    padding-top: 50px;
+    text-align: center;
+}
