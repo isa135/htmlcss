@@ -1,34 +1,34 @@
-.session {
+.main-session {
     background-color: #11BFA5;
     padding-top: 50px;
     padding-bottom: 100px;
     border-bottom: 10px solid #C7109F;
 }
 
-.session .main-title {
+.main-session .main-title {
     margin-bottom: 60px;
 }
 
-.session.-bgBlack {
+.main-session.-bgBlack {
     background-color: #000;
 }
 
-.session.-bgFirst {
+.main-session.-bgFirst {
     background-color:#11BFA5
 }
 
-.session.-bgSecond {
+.main-session.-bgSecond {
     background-color:#C7109F
 }
 
-.session.-bdBlack {
+.main-session.-bdBlack {
     border-bottom: 10px solid #000;
 }
 
-.session.-bdFirst {
+.main-session.-bdFirst {
     border-bottom: 10px solid #11BFA5;
 }
 
-.session.-bdSecond {
+.main-session.-bdSecond {
     border-bottom: 10px solid #C7109F;
 }
