@@ -9,12 +9,26 @@
     margin-bottom: 60px;
 }
 
-.session.-projetos {
+.session.-bgBlack {
     background-color: #000;
+}
+
+.session.-bgFirst {
+    background-color:#11BFA5
+}
+
+.session.-bgSecond {
+    background-color:#C7109F
+}
+
+.session.-bdBlack {
+    border-bottom: 10px solid #000;
+}
+
+.session.-bdFirst {
     border-bottom: 10px solid #11BFA5;
 }
 
-.session.-sobre {
-    background-color: #C7109F;
-    border-bottom: 10px solid #000;
+.session.-bdSecond {
+    border-bottom: 10px solid #C7109F;
 }
