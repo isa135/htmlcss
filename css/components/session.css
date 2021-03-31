@@ -4,3 +4,17 @@
     padding-bottom: 100px;
     border-bottom: 10px solid #C7109F;
 }
+
+.session .main-title {
+    margin-bottom: 60px;
+}
+
+.session.-projetos {
+    background-color: #000;
+    border-bottom: 10px solid #11BFA5;
+}
+
+.session.-sobre {
+    background-color: #C7109F;
+    border-bottom: 10px solid #000;
+}
