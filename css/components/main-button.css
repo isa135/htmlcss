@@ -8,6 +8,7 @@
     font-size: 20px;
     color: #FFF;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .main-button:hover {
@@ -19,5 +20,9 @@
 .main-button.-full {
     width: 100%;
     background-color: #C7109F;
+    transform: scale(1.01);
+}
+
+.main-button:hover {
     transform: scale(1.01);
 }
