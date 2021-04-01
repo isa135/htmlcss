@@ -1,0 +1,6 @@
+.main-scroll {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+
+    /* transition: transform 2000ms linear; */
+}
