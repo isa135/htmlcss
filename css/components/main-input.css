@@ -10,7 +10,7 @@
     padding-left: 5px;
 }
 
-.main-input .-textarea {
-    columns: 30;
+.main-input.-textarea {
+    height: 320px;
 
 }
