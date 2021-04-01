@@ -1,9 +1,16 @@
 .main-form {
-    padding-right: 40px;
-    padding-left: 40px;
+    background-color:#11BFA5;
+    padding: 50px 40px;
 }
 
-.main-form .input-mensagem {
+.main-form .main-input {
+    margin-bottom: 20px;
+}
+
+.main-form .main-input.-textarea {
+    margin-bottom: 40px;
+}
+/* .main-form .input-mensagem {
     border: 5px solid #000;
     box-sizing: border-box;
     width: 1360px;
@@ -30,4 +37,4 @@
     background-color: rgb(235, 81, 201);
     box-shadow: 5px 5px 5px #000;
     transform: scale(1.01);
-}
+} */
