@@ -25,6 +25,10 @@
     <link rel="stylesheet" href="css/components/main-description.css">
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/main-carousel.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
+    <link rel="stylesheet" href="css/components/main-footer.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
+    <link rel="stylesheet" href="css/components/main-input.css">
     
 </head>
 <body>
@@ -236,11 +240,39 @@
     
     <section class="main-session -bgFirst -bdBlack">
         <h2 class="main-title -second">Contato</h2>
+
+        <form class="main-form" action="" method="get">
+            <label class="main-label" for="GET-name">Nome</label>
+            <input class="main-input" id="GET-name" type="text" name="name">
+
+            <label class="main-label" for="GET-email">E-mail</label>
+            <input class="main-input" id="GET-email" type="email" name="email">
+
+            <label class="main-label" for="message">Mensagem</label>
+            <textarea class="main-input -textarea" name="" id="message"></textarea>
+            
+            <input type="submit" value="Enviar">
+
+            <button class="button-enviar" type="submit">Enviar</button>
+          </form>
     </section>
+
+    <!-- footer>a*3>img -->
+    <footer class="main-footer">
+        <a class="action" href="" target="_blank">
+            <img src="img/ico_twitter.png" alt="Twitter">
+        </a>
+        <a class="action" href="" target="_blank">
+            <img src="img/ico_youtube.png" alt="YouTube">
+        </a>
+        <a class="action" href="" target="_blank">
+            <img src="img/ico_discord.png" alt="discord">
+        </a>
+    </footer>
 
     <!-- Emment Abreviation
         script[src=js/components/main-carousel.js] 
     -->
-    <script src="js/components/main-carousel.js"></script>
+   <script src="js/components/main-carousel.js"></script>
 </body>
 </html>
