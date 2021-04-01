@@ -1,0 +1,16 @@
+.main-input  {
+    border: 5px solid #000;
+    box-sizing: border-box;
+    font-size: 30px;
+    width: 100%;
+    height: 50px;
+    left: 40px;
+    top: 3308px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.main-input .-textarea {
+    columns: 30;
+
+}
