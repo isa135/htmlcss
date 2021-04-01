@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR ">
+
 <head>
     <meta charset="UTF-8">
     <title>Curso de HTML/CSS Feliz</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/components/main-header.css">
@@ -29,20 +31,24 @@
     <link rel="stylesheet" href="css/components/main-footer.css">
     <link rel="stylesheet" href="css/components/main-label.css">
     <link rel="stylesheet" href="css/components/main-input.css">
-    
-</head>
-<body>
-    <header class="main-header">
-        <img src="assets/img/logo.png" alt="Avatar da Isa">
+    <link rel="stylesheet" href="css/components/main-scroll.css">
 
-        <nav>
-            <a class="main-action" href="" lang="en">Skils</a>
-            <a class="main-action" href="">Projetos</a>
-            <a class="main-action" href="">Sobre</a>
-            <a class="main-action" href="">Contatos</a>
-            <a href="" class="main-button" lang="en">Download CV</a>
-        </nav>
-    </header>  
+</head>
+
+<body>
+    <scroll-page class="main-scroll" id="inicio">
+        <header class="main-header">
+            <img src="assets/img/logo.png" alt="Avatar da Isa">
+
+            <nav>
+                <a class="main-action" href="#skills" lang="en">Skills</a>
+                <a class="main-action" href="#projetos">Projetos</a>
+                <a class="main-action" href="#sobre">Sobre</a>
+                <a class="main-action" href="#contato">Contato</a>
+                <a href="" class="main-button" lang="en">Download CV</a>
+            </nav>
+        </header>
+    </scroll-page>
 
     <section class="main-banner">
         <div class="wrapper">
@@ -50,208 +56,219 @@
                 <h1 class="main-title">Isa Accessor</h1>
                 <h2 class="main-subtitle">FrontEnd Developer</h2>
             </div>
-            <div class="navigation">    
+            <div class="navigation">
                 <a href="" class="main-button" lang="en">Download CV</a>
-                <a href="" class="main-button">Contatos</a> 
+                <a href="#contato" class="main-button">Contato</a>
             </div>
         </div>
     </section>
 
-    <section class="main-session">
-        <h2 class="main-title -second">Skills</h2>
+    <scroll-page class="main-scroll" id="skills">
+        <section class="main-session">
+            <h2 class="main-title -second">Skills</h2>
 
 
-        <div class="wrapper-skill">
+            <div class="wrapper-skill">
 
-            <article class="skill-tec">
-                <img class="icon" src="img/ico_html5.png" alt="Ícone HTML5 em pixel art"/>
-                <div class="right">
-                    <h3 class="title">HTML</h3>
-                    <progress class="progress-bar" max="100" value="70">
-                        70%
-                    </progress>
-                </div>
-                
-            </article>
-            <article class="skill-tec">
-                <img class="icon" src="img/ico_css3.png" alt="Ícone CSS3 em pixel art"/>
-                <div class="right">
-                    <h3 class="title">CSS3</h3>
-                    <progress class="progress-bar" max="100" value="70">
-                        70%
-                    </progress>
-                </div>
-                
-            </article>
-            <article class="skill-tec">
-                <img class="icon" src="img/ico_js.png" alt="Ícone JavaScript em pixel art"/>
-                <div class="right">
-                    <h3 class="title">JavaScript</h3>
-                    <progress class="progress-bar" max="100" value="70">
-                        70%
-                    </progress>
-                </div>
-                
-            </article>
-            <article class="skill-tec">
-                <img class="icon" src="img/ico_restapi.png" alt="Ícone Rest API em pixel art"/>
-                <div class="right">
-                    <h3 class="title">Rest API</h3>
-                    <progress class="progress-bar" max="100" value="10">
-                        10%
-                    </progress>
-                </div>
-                
-            </article>
-            <article class="skill-tec">
-                <img class="icon" src="img/ico_tdd.png" alt="Ícone TDD em pixel art"/>
-                <div class="right">
-                    <h3 class="title">TDD</h3>
-                    <progress class="progress-bar" max="100" value="5">
-                        5%
-                    </progress>
-                </div>
-                
-            </article>
-            <article class="skill-tec">
-                <img class="icon" src="img/ico_nodejs.png" alt="Ícone NodeJS em pixel art"/>
-                <div class="right">
-                    <h3 class="title">NodeJS</h3>
-                    <progress class="progress-bar" max="100" value="5">
-                        5%
-                    </progress>
-                </div>
-                
-            </article>
-            <article class="skill-tec">
-                <img class="icon" src="img/ico_react.png" alt="Ícone React em pixel art"/>
-                <div class="right">
-                    <h3 class="title">React</h3>
-                    <progress class="progress-bar" max="100" value="10">
-                        10%
-                    </progress>
-                </div>
-                
-            </article>
-            <article class="skill-tec">
-                <img class="icon" src="img/ico_ux.png" alt="Ícone UX em pixel art"/>
-                <div class="right">
-                    <h3 class="title">UX</h3>
-                    <progress class="progress-bar" max="100" value="20">
-                        20%
-                    </progress>
-                </div>
-                
-            </article>
-        </div>
+                <article class="skill-tec">
+                    <img class="icon" src="img/ico_html5.png" alt="Ícone HTML5 em pixel art" />
+                    <div class="right">
+                        <h3 class="title">HTML</h3>
+                        <progress class="progress-bar" max="100" value="70">
+                            70%
+                        </progress>
+                    </div>
 
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="img/ico_css3.png" alt="Ícone CSS3 em pixel art" />
+                    <div class="right">
+                        <h3 class="title">CSS3</h3>
+                        <progress class="progress-bar" max="100" value="70">
+                            70%
+                        </progress>
+                    </div>
 
-    </section>
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="img/ico_js.png" alt="Ícone JavaScript em pixel art" />
+                    <div class="right">
+                        <h3 class="title">JavaScript</h3>
+                        <progress class="progress-bar" max="100" value="70">
+                            70%
+                        </progress>
+                    </div>
 
-    <section class="main-session -bgBlack -bdFirst">
-        <h2 class="main-title -second">Projetos</h2>
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="img/ico_restapi.png" alt="Ícone Rest API em pixel art" />
+                    <div class="right">
+                        <h3 class="title">Rest API</h3>
+                        <progress class="progress-bar" max="100" value="10">
+                            10%
+                        </progress>
+                    </div>
 
-        <div class="wrapper-card">
-            <a href="https://www.firedlabs.com" target="_blank">
-                <figure class="card-projetos">
-                    <img class="logo" src="img/logo-firedlabs.png" alt="Logo da Fired Labs"/>
-                </figure>
-            </a>
-            <a href="https://www.collabcode.training/" target="_blank">
-                <figure class="card-projetos -blue">
-                    <img class="logo" src="img/logo-collabcode.png" alt="Logo da CollabCode"/>
-                </figure>
-            </a>
-            <a href="https://isa135.github.io/htmlcss/">
-                <figure class="card-projetos">
-                    <img class="logo" src="img/portfolio.png" alt="Avatar da Isa Accessor"/>
-                </figure>
-            </a>
-        </div>
-    </section>
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="img/ico_tdd.png" alt="Ícone TDD em pixel art" />
+                    <div class="right">
+                        <h3 class="title">TDD</h3>
+                        <progress class="progress-bar" max="100" value="5">
+                            5%
+                        </progress>
+                    </div>
 
-    <section class="main-session -bgSecond -bdBlack">
-        <h2 class="main-title -second">Sobre</h2>
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="img/ico_nodejs.png" alt="Ícone NodeJS em pixel art" />
+                    <div class="right">
+                        <h3 class="title">NodeJS</h3>
+                        <progress class="progress-bar" max="100" value="5">
+                            5%
+                        </progress>
+                    </div>
 
-        <section class="main-carousel">
-            <button class="button-arrow -left">
-                <span class="content">
-                    Voltar
-                </span>
-            </button>
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="img/ico_react.png" alt="Ícone React em pixel art" />
+                    <div class="right">
+                        <h3 class="title">React</h3>
+                        <progress class="progress-bar" max="100" value="10">
+                            10%
+                        </progress>
+                    </div>
 
-            <div class="items">
-                <!-- Emmet Abreviation:
+                </article>
+                <article class="skill-tec">
+                    <img class="icon" src="img/ico_ux.png" alt="Ícone UX em pixel art" />
+                    <div class="right">
+                        <h3 class="title">UX</h3>
+                        <progress class="progress-bar" max="100" value="20">
+                            20%
+                        </progress>
+                    </div>
+
+                </article>
+            </div>
+        </section>
+    </scroll-page>
+
+    <scroll-page id="projetos">
+        <section class="main-session -bgBlack -bdFirst">
+            <h2 class="main-title -second">Projetos</h2>
+
+            <div class="wrapper-card">
+                <a href="https://www.firedlabs.com" target="_blank">
+                    <figure class="card-projetos">
+                        <img class="logo" src="img/logo-firedlabs.png" alt="Logo da Fired Labs" />
+                    </figure>
+                </a>
+                <a href="https://www.collabcode.training/" target="_blank">
+                    <figure class="card-projetos -blue">
+                        <img class="logo" src="img/logo-collabcode.png" alt="Logo da CollabCode" />
+                    </figure>
+                </a>
+                <a href="#inicio">
+                    <figure class="card-projetos">
+                        <img class="logo" src="img/portfolio.png" alt="Avatar da Isa Accessor" />
+                    </figure>
+                </a>
+            </div>
+        </section>
+    </scroll-page>
+
+    <scroll-page id="sobre">
+        <section class="main-session -bgSecond -bdBlack">
+            <h2 class="main-title -second">Sobre</h2>
+
+            <section class="main-carousel">
+                <button class="button-arrow -left">
+                    <span class="content">
+                        Voltar
+                    </span>
+                </button>
+
+                <div class="items">
+                    <!-- Emmet Abreviation:
                     figure.node-card>figcaption.title+img.logo -->
-                <div class="elements">
-                    <figure class="node-card">
-                        <figcaption class="title">2012</figcaption>
-                        <div class="logo">
-                            <img src="img/logo-locaweb.png" alt="Logo da LocaWeb">
-                        </div>
-                    </figure>
+                    <div class="elements">
+                        <figure class="node-card">
+                            <figcaption class="title">2012</figcaption>
+                            <div class="logo">
+                                <img src="img/logo-locaweb.png" alt="Logo da LocaWeb">
+                            </div>
+                        </figure>
 
-                    <figure class="node-card -clean">
-                        <figcaption class="title">2014</figcaption>
-                        <div class="logo">
-                            <img src="img/logo-caelum.png" alt="Logo da Calwum">
-                        </div>
-                    </figure>
+                        <figure class="node-card -clean">
+                            <figcaption class="title">2014</figcaption>
+                            <div class="logo">
+                                <img src="img/logo-caelum.png" alt="Logo da Calwum">
+                            </div>
+                        </figure>
 
-                    <figure class="node-card -bgFirst">
-                        <figcaption class="title">2016</figcaption>
-                        <div class="logo">
-                            <img src="img/logo-getninjas.png" alt="Logo da GetNinjas">
-                        </div>
-                    </figure>
+                        <figure class="node-card -bgFirst">
+                            <figcaption class="title">2016</figcaption>
+                            <div class="logo">
+                                <img src="img/logo-getninjas.png" alt="Logo da GetNinjas">
+                            </div>
+                        </figure>
 
-                    <figure class="node-card -clean">
-                        <figcaption class="title">2017</figcaption>
-                        <div class="logo">
-                            <img src="img/logo-caelum.png" alt="Logo da Caelum"/>
-                        </div>
-                    </figure>
+                        <figure class="node-card -clean">
+                            <figcaption class="title">2017</figcaption>
+                            <div class="logo">
+                                <img src="img/logo-caelum.png" alt="Logo da Caelum" />
+                            </div>
+                        </figure>
 
-                    <figure class="node-card">
-                        <figcaption class="title">2018</figcaption>
-                        <div class="logo">
-                            <img src="img/logo-impulso.png" alt="Logo da Impulso">
-                        </div>
-                    </figure>
+                        <figure class="node-card">
+                            <figcaption class="title">2018</figcaption>
+                            <div class="logo">
+                                <img src="img/logo-impulso.png" alt="Logo da Impulso">
+                            </div>
+                        </figure>
 
-                    <figure class="node-card -bgFirst">
-                        <figcaption class="title">2019</figcaption>
-                        <div class="logo">
-                            <img src="img/logo-collabcode1.png" alt="Logo da CollabCode">
-                        </div>
-                    </figure>
+                        <figure class="node-card -bgFirst">
+                            <figcaption class="title">2019</figcaption>
+                            <div class="logo">
+                                <img src="img/logo-collabcode1.png" alt="Logo da CollabCode">
+                            </div>
+                        </figure>
+                    </div>
                 </div>
-            </div>
 
-            <button class="button-arrow -right"><span class="content">Avançar</span></button>
+                <button class="button-arrow -right"><span class="content">Avançar</span></button>
+
+            </section>
+
+            <p class="main-description">
+                Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas.
+                Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho
+                conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end,
+                trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o
+                da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com
+                amigos.
+            </p>
 
         </section>
+    </scroll-page>
 
-        <p class="main-description">
-            Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
-        </p>
-        
-    </section>
+    <scroll-page id="contato">
+        <form class="main-form" action="" method="get">
+            <legend class="main-title -second">Contato</legend>
 
-    <form class="main-form" action="" method="get">
-        <legend class="main-title -second">Contato</legend>
-        
-        <label class="main-label" for="name">Nome</label>
-        <input class="main-input" id="name" type="text" name="name" required>
+            <label class="main-label" for="name">Nome</label>
+            <input class="main-input" id="name" type="text" name="name" required>
 
-        <label class="main-label" for="email">E-mail</label>
-        <input class="main-input" id="email" type="email" name="email" required>
+            <label class="main-label" for="email">E-mail</label>
+            <input class="main-input" id="email" type="email" name="email" required>
 
-        <label class="main-label" for="message">Mensagem</label>
-        <textarea class="main-input -textarea" name="" id="message" required></textarea>
+            <label class="main-label" for="message">Mensagem</label>
+            <textarea class="main-input -textarea" name="" id="message" required></textarea>
 
-        <button class="main-button -full" type="submit">Enviar</button>
-    </form>   
+            <button class="main-button -full" type="submit">Enviar</button>
+        </form>
+    </scroll-page>
 
     <!-- footer>a*3>img -->
     <footer class="main-footer">
@@ -269,6 +286,7 @@
     <!-- Emment Abreviation
         script[src=js/components/main-carousel.js] 
     -->
-   <script src="js/components/main-carousel.js"></script>
+    <script src="js/components/main-carousel.js"></script>
 </body>
+
 </html>
